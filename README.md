@@ -2,9 +2,9 @@
 
 **OpenScan is an Open-Source Implementation of Scanner Class in Java but more Efficient.**
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Java](https://img.shields.io/badge/Java-v8%2B-orange.svg)](https://www.java.com/en/download/)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-username/OpenScan/actions) <!-- Replace 'your-username' with your actual GitHub username -->
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Chill-Astro/OpenScan/actions)
 
 ## Introduction
 
