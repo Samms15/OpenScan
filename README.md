@@ -44,61 +44,33 @@
 
 1.  **Download:** Clone or download the `OpenScan.java` file from this repository.
 2.  **Include:** Add the `OpenScan.java` file to your Java project.
-3.  **Import:** Import the class in your Java code:
+3.  **Create Object:** Create an Object from this Code:
 
     ```java
-    import OpenScan;
+    OpenScan sc = new OpenScan();
     ```
+## Usings
+ 
+Assuming that sc is your OpenScan object,
 
-## Usage Examples
-
-Here are some examples demonstrating the features of `OpenScan`:
-
-```java
-import OpenScan;
-import java.util.Arrays;
-import java.util.List;
-
-public class Main {
-    public static void main(String[] args) {
-        try (OpenScan scan = new OpenScan()) {
-            // Basic input reading
-            System.out.print("Enter your name: ");
-            String name = scan.next();
-            System.out.println("Hello, " + name + "!");
-
-            System.out.print("Enter an integer: ");
-            int num = scan.nextInt();
-            System.out.println("You entered: " + num);
-
-            // Reading a line
-            System.out.print("Enter a line of text: ");
-            String line = scan.nextLine();
-            System.out.println("You typed: " + line);
-
-            // Reading an array of integers
-            System.out.println("Enter 3 integers on one line (e.g., 1 2 3):");
-            int[] numbers = scan.nextIntArray(3);
-            System.out.println("Integers: " + Arrays.toString(numbers));
-
-            // Reading a list of strings
-            System.out.println("Enter some words on one line (e.g., apple banana orange):");
-            List<String> words = scan.nextStringList();
-            System.out.println("Words: " + words);
-            
-            // Skipping lines
-            System.out.println("Enter 2 lines to skip:");
-            scan.skipLines(2);
-            System.out.println("Skipped 2 lines");
-            
-            // Read all the integers
-            System.out.println("Enter some integers: ");
-            List<Integer> allInts = scan.readAllInts();
-            System.out.println("All Integers : " + allInts);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-
+ - sc.next() reads the next token from the input.
+ - sc.nextInt() reads the next token as an integer.
+ - sc.nextDouble() reads the next token as a double.
+ - sc.nextLine() reads the next line of text.
+ - sc.nextChar() reads the first character of the next token.
+ - sc.nextBoolean() reads the next token as a boolean.
+ - sc.nextShort() reads the next token as a short.
+ - sc.nextByte() reads the next token as a byte.
+ - sc.nextLong() reads the next token as a long.
+ - sc.nextFloat() reads the next token as a float.
+ - sc.nextStringList() reads all remaining tokens from the current line as Strings.
+ - sc.nextIntArray(int count) reads multiple integers from the current line.
+ - sc.nextLongArray(int count) reads multiple longs from the current line.
+ - sc.nextDoubleArray(int count) reads multiple doubles from the current line.
+ - sc.readAllInts() reads all integers from the input until the end of input.
+ - sc.readAllDoubles() reads all doubles from the input until the end of input.
+ - sc.readAllLongs() reads all longs from the input until the end of input.
+ - sc.readAllStrings() reads all strings from the input until the end of input.
+ - sc.skipLines(int linesToSkip) skips a specified number of lines from the input.
+ - sc.hasNext() checks if there is another token available.
+ - sc.close() closes the underlying BufferedReader.
