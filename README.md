@@ -2,14 +2,15 @@
 
 **OpenScan is an Open-Source Implementation of Scanner Class in Java but more Efficient.**
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Java](https://img.shields.io/badge/Java-v8%2B-orange.svg)](https://www.java.com/en/download/)
+---
 
-## Introduction
+## Introduction :
 
 `OpenScan` is a robust, efficient, and versatile Java library designed to replace the standard `Scanner` class for handling user input. While the built-in `Scanner` class is useful for basic tasks, `OpenScan` offers significant advantages in terms of performance, error handling, and flexibility, especially when dealing with large inputs or complex data formats.
 
-## Key Features and Advantages
+---
+
+## Key Features and Advantages :
 
 *   **Enhanced Performance:**
     *   Leverages `BufferedReader` for efficient line-by-line reading.
@@ -39,7 +40,9 @@
 * **Detailed Exception Handling:**
     * It handles all the exceptions clearly.
 
-## Getting Started
+---
+
+## Getting Started :
 
 1.  **Download:** Clone or download the `OpenScan.java` file from this repository.
 2.  **Include:** Add the `OpenScan.java` file to your Java project.
@@ -48,7 +51,9 @@
     ```java
     OpenScan sc = new OpenScan();
     ```
-## Usings
+---
+
+## Usings :
  
 Assuming that sc is your OpenScan object,
 
@@ -73,3 +78,5 @@ Assuming that sc is your OpenScan object,
  - sc.skipLines(int linesToSkip) skips a specified number of lines from the input.
  - sc.hasNext() checks if there is another token available.
  - sc.close() closes the underlying BufferedReader.
+
+---
