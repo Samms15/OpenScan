@@ -4,7 +4,6 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Java](https://img.shields.io/badge/Java-v8%2B-orange.svg)](https://www.java.com/en/download/)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Chill-Astro/OpenScan/actions)
 
 ## Introduction
 
